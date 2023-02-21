@@ -1,0 +1,8 @@
+.App {
+  max-width: 860px;
+  height: 100vh;
+  background-image: url(../public/fhCover.jpg);
+  background-size: cover;
+  margin: 0px auto;
+  overflow: scroll;
+}

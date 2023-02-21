@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.eventWrapper {
+  margin-left: 2rem;
+  max-width: 90%;
+  background-color: #8c019677;
+  border-radius: 10px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+}
+main {
+  margin-bottom: 0.5rem;
+  /* margin-left: 1rem; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-shadow: 1px 1px #444;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1.75rem;
+  text-align: center;
+  color: aliceblue;
+}
+@font-face {
+  font-family: "Mostwasted";
+  src: url(/src/Mostwasted.ttf);
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Mostwasted";
+  color: aliceblue;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 3.5rem;
+  text-shadow: 2px 2px #000;
+}
+.eventForm {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  background-color: #9cba54aa;
+  padding: 12px;
+  border-radius: 8px;
+}
+#eventlist {
+  border: 2px solid #8c0196;
+  color: white;
+  background-color: #8c0196aa;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+#eventlist:focus {
+  outline: none;
+}
+.eventAddBtn {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #8c0196;
+  border-radius: 7px;
+  height: 2.5rem;
+  width: 8rem;
+  transition-duration: 0.75s;
+}
+.eventAddBtn:hover {
+  transform: scale(1.1);
+}
+.eventAddBtn:active {
+  color: #bddf00;
+}

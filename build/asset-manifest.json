@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7bcb1165.css",
+    "main.js": "/static/js/main.492b69f8.js",
+    "static/media/fhCover.jpg": "/static/media/fhCover.823412bdb06298a67ae5.jpg",
+    "static/media/Mostwasted.ttf": "/static/media/Mostwasted.f4f19f2fe4f4dd94ce08.ttf",
+    "index.html": "/index.html",
+    "main.7bcb1165.css.map": "/static/css/main.7bcb1165.css.map",
+    "main.492b69f8.js.map": "/static/js/main.492b69f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bcb1165.css",
+    "static/js/main.492b69f8.js"
+  ]
+}

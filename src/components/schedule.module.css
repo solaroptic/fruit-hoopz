@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Mostwasted";
+  src: url(/src/Mostwasted.ttf);
+  font-style: normal;
+}
+.availHead {
+  font-family: "Mostwasted";
+  color: aliceblue;
+  text-shadow: 1px 1px #8c0196;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+/* .eachSched {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: left;
+  background-color: #8c019688;
+  gap: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: aliceblue;
+} */
+table,
+th,
+td {
+  border: 1px solid #bdd00b;
+  border-collapse: collapse;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+}
+table {
+  width: 100%;
+  background-color: #8c019688;
+  color: aliceblue;
+  text-shadow: 1px 1px #333;
+}
+td {
+  column-width: 3;
+  height: 4rem;
+  /* vertical-align: bottom; */
+}
+
+.tableName {
+  font-size: 1.75rem;
+}

@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Mostwasted";
+  src: url(/src/Mostwasted.ttf);
+  font-style: normal;
+}
+
+.heading {
+  font-family: "Mostwasted";
+  color: #8c0196;
+  text-align: center;
+  text-shadow: 1px 2px whitesmoke;
+  font-size: 8rem;
+  padding-top: 2rem;
+  margin-bottom: 18rem;
+}
+.mobile {
+  text-align: center;
+  text-shadow: 1px 2px whitesmoke;
+  font-size: 5rem;
+  color: #8c0196;
+  display: none;
+}
+.headingHome {
+  font-family: "Mostwasted";
+  color: #8c0196;
+  text-align: center;
+  text-shadow: 1px 1px #fff;
+  font-size: 8rem;
+  padding-top: 0rem;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 3;
+}
+.inputsForm {
+  color: #8c0196;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.inputs {
+  height: 5rem;
+  width: 20rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border: 2px solid #8c0196;
+  border-radius: 10px;
+  padding-left: 1rem;
+  font-size: 2.2rem;
+}
+.inputs:focus {
+  outline: none;
+}
+.loginBtn {
+  cursor: pointer;
+  height: 5rem;
+  width: 10rem;
+  margin-top: 1rem;
+  font-family: "Mostwasted";
+  letter-spacing: 2px;
+  font-size: 3.9rem;
+  color: aliceblue;
+  background-color: #8c0196;
+  border-radius: 10px;
+  border: 2px solid #bddf00;
+}
+.loginBtn:active {
+  color: #bddf00;
+}
+ul {
+  list-style-type: none;
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-1000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes throw {
+  0% {
+    transform: translate(-1000px, -95px);
+  }
+  100% {
+    transform: translate(1500px, -95px);
+  }
+}
+.fruit {
+  transform: scale(70%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10.5rem;
+  position: relative;
+  z-index: 2;
+  animation-name: bounceInDown;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+.orange {
+  transform: scale(70%);
+  /* margin-top: -11rem; */
+  position: absolute;
+  animation-name: throw;
+  animation-duration: 7s;
+  animation-fill-mode: both;
+  z-index: 5;
+}
+@media screen and (min-width: 854px) {
+  .mobile {
+    display: block;
+  }
+  .loginBtn {
+    display: none;
+  }
+  .inputs {
+    display: none;
+  }
+}
